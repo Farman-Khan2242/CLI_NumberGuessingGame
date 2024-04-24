@@ -1,6 +1,7 @@
 #! /usr/bin/env node 
 import inquirer from "inquirer";
 let randomNumber = Math.floor(Math.random() * 6 + 1);
+// console.log(randomNumber);if we show the random number than uncomment this line
 console.log("Welcome to Number guessing Game:");
 const answer = await inquirer.prompt([
     {
@@ -13,5 +14,5 @@ if (answer.Userguessnumber === randomNumber) {
     console.log("Congratulation! you guessed right number");
 }
 else {
-    console.log("Oops! You guessed wrong number");
+    console.log("Oops! You guessed wrong number quess again:");
 }
