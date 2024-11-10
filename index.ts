@@ -1,5 +1,4 @@
 #! /usr/bin/env node 
-
 import inquirer from "inquirer";
 let condition = true
 let randomNumber = Math.floor(Math.random() * 6 + 1);

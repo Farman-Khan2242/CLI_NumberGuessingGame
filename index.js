@@ -2,7 +2,7 @@
 import inquirer from "inquirer";
 let condition = true;
 let randomNumber = Math.floor(Math.random() * 6 + 1);
-// console.log(randomNumber);if we show the random number than uncomment this line
+// console.log(randomNumber);  //if we show the random number than uncomment this line
 console.log("Welcome to Number guessing Game:");
 while (condition) {
     let answer = await inquirer.prompt([
